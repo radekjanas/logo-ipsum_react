@@ -1,0 +1,48 @@
+@media all and (max-width: 1277px) {
+    .container {
+        width: 992px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }    
+
+    .basic-info__image, 
+    .basic-info__text-block,
+    .slide__content,
+    .slide__image-container {
+        width: 100%;
+    }
+
+    .basic-info__image,
+    .slide__image-container {
+        height: 350px;
+    }
+
+    .basic-info__image {
+        margin-top: 130px;
+    }
+
+    .input-container--name,
+    .input-container--email,
+    .input-container--phone,
+    .input-container--postal-code,
+    .input-container--city,
+    .input-container--street,
+    .input-container--house-number,
+    .input-container--flat-number {
+        width: 100%;
+    }
+
+    .submit-container {
+        text-align: left;
+    }
+}

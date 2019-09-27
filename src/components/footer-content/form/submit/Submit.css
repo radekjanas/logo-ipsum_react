@@ -1,0 +1,20 @@
+.submit-container__button {
+    background-color: #725a46;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 19px 55px;
+    background-image: url('../../../../assets/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    cursor: pointer;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.submit-container__button:hover {
+    background-color: #725a46c9;
+}

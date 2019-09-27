@@ -1,0 +1,35 @@
+article, 
+aside, 
+dialog, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+main, 
+nav, 
+section {
+    display: block;
+}
+
+*, 
+::after, 
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #8d8d8d;
+    text-align: left;
+    margin: 0;
+}
+
+.container {
+    width: 1278px;
+    padding: 0 15px;
+    margin:0 auto;
+}

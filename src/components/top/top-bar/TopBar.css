@@ -1,0 +1,9 @@
+.top__bar {
+    height: 80px;
+    background-color: #fff;
+    position: relative;
+}
+
+.top__image {
+    margin: 20px 0 20px 50px;
+}

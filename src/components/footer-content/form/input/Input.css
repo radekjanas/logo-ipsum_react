@@ -1,0 +1,37 @@
+.input-container {
+    display: inline-block;
+    margin: 0 1% 5px 0;
+    vertical-align: middle;
+}
+
+.input-container--name,
+.input-container--email {
+    width: 29%;
+}
+
+.input-container--phone,
+.input-container--postal-code,
+.input-container--city,
+.input-container--street,
+.input-container--house-number,
+.input-container--flat-number {
+    width: 19%;
+}
+
+.input-container__input {
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 21.5px;
+    border: 0;
+    border-radius: 2px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.input-container__error-box {
+    font-size: 12px;
+    min-height: 18px;
+    width: 100%;
+    display: block;
+    padding-left: 5px;
+}

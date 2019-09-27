@@ -1,0 +1,9 @@
+.checkbox-block {
+    display: block;
+    padding: 5px 0;
+}
+
+.submit-container {
+    margin-top: 50px;
+    text-align: right;
+}
